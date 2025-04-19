@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+  /* 기본 font-family 설정("Pretendard Variable") */
+  --font-*: initial;
+  --font-sans: 'Pretendard Variable', sans-serif;
+  --font-sans-wanted: 'Wanted Sans Variable', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+}
