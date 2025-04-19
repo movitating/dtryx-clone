@@ -37,8 +37,33 @@
     <link rel="preload" as="font=" href="/assets/font/WantedSans/EN/WantedSansStdVariable-en.woff2" type="font/woff2" crossorigin />
     <link rel="stylesheet" as="font" href="/assets/css/WantedSansVariable-ko.css" />
     <link rel="stylesheet" as="font" href="/assets/css/WantedSansStdVariable-en.css" />
+    <!-- style -->
+    <style>
+      .component {
+        margin: 1rem;
+
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 1rem;
+
+        a {
+          padding: 1rem;
+          border: 1px solid black;
+          border-radius: 16px;
+          background-color: #fff;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1 class="text-9xl">Hello World!</h1>
+    <div class="component">
+      <a href="./src/components/header.html">header</a>
+      <a href="./src/components/nav.html">nav</a>
+      <a href="./src/components/main-banner.html">main-banner</a>
+      <a href="./src/components/item.html">item</a>
+      <a href="./src/components/sub-banner.html">sub-banner</a>
+      <a href="./src/components/notice.html">notice</a>
+      <a href="./src/components/footer.html">footer</a>
+    </div>
   </body>
 </html>
